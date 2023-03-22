@@ -79,8 +79,9 @@ const Product = () => {
                       borderRadius={"50%"}
                       width={"100%"}
                       height={"100%"}
+                      alt={"victoria soprano dress"}
                       objectFit={"cover"}
-                      src={`${process.env.REACT_APP_UPLOAD_URL}${data?.attributes.url}`}
+                      src={data?.attributes?.url}
                     />
                   </Box>
                 </Box>
@@ -99,13 +100,13 @@ const Product = () => {
           >
             <Image
               border={`2px #E8DBBD solid`}
-              alt={"Hero Image"}
+              alt={"victoria soprano dress"}
               fit={"cover"}
               align={"center"}
               width={"100%"}
               maxWidth={600}
               height={"100%"}
-              src={`${process.env.REACT_APP_UPLOAD_URL}${dressesData?.attributes?.img_dresses?.data[activeImg]?.attributes?.url}`}
+              src={dressesData?.attributes?.img_dresses?.data[activeImg]?.attributes?.url}
             />
           </Box>
         </Flex>
