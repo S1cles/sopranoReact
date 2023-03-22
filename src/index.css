@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Bolkit';
+  src: local('Bolkit'),
+    url('./Fonts/Bolkit.ttf') format('truetype');
+  font-weight: bold;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Error{
+  color: red !important;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.lightHr{
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 3px;
+  border-radius: 50%;
+  background: #D6BF8A;
+  margin-bottom: 50px;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+html{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.mini_img {
+  transition: transform 0.2s ease-out;
+}
+.mini_img:hover{
+  transform: scale(1.1); 
+  cursor: pointer;
+}
+Td{
+text-align: center !important;
+margin: 5px !important;
+padding: 10px !important;
+}
+Th{
+  text-align: center !important;
+  margin: 5px !important;
+  padding: 10px !important;
+  }

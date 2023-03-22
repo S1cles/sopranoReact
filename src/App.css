@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg_container{
+  background-image: url('./img/SAKO1029 2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center top;
+  text-align: center;
+  position: relative;
+ 
+}
+.bg_container>img{
+  filter: opacity(1) drop-shadow(0 0 0 black);
+}
+.bg_container>p{
+  padding-top: 50px;
+  font-family: Bolkit;
+  vertical-align: middle;
+  color: rgb(214, 197, 183);
+  font-weight: 400;
+  margin: 0px;
+  margin-bottom: 100px;
+  line-height: normal;
+  text-shadow: 2px 2px 2px #000;
+}
+.bg_container>.content_bg{
+opacity: 0.2 !important;
+}
