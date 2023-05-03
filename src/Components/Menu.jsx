@@ -56,7 +56,6 @@ const Menu = () => {
       >
         Catalog
       </Button>
-      <Button onClick={()=>console.log(dresses)}></Button>
 
       <Drawer onClose={onClose} isOpen={isOpen} size={"full"}>
         <DrawerOverlay />
