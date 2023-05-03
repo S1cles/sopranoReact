@@ -24,10 +24,10 @@ const Menu = () => {
   useEffect(() => {
     if (data) {
       const sortedData = data.data.sort((a, b) => {
-        if (a.attributes.name < b.attributes.name) {
+        if (a.id < b.id) {
           return -1;
         }
-        if (a.attributes.name > b.attributes.name) {
+        if (a.id > b.id) {
           return 1;
         }
         return 0;
