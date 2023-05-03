@@ -34,6 +34,7 @@ const Menu = () => {
       });
       setDresses(sortedData);
     }
+    console.log(dresses)
   }, [data]);
 
   return (
@@ -96,7 +97,7 @@ const Menu = () => {
                     {item.attributes.name}
                   </Text>
                   <Text key={item.id} color={"	#808080"}>
-                    {item.attributes.article}
+                    {item?.attributes?.article}
                   </Text>
                 </Button>
               ))}
